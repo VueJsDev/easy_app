@@ -1,0 +1,44 @@
+{
+  "name": "easy_app",
+  "description": "App que sirve de guìa para locales comerciales, sea para personas de la ciudad de Formosa, como para aquellas personas que se encuentran de paseo por la ciudad y desean conocer Hoteles, Bares, etc.",
+  "version": "1.0.0",
+  "author": "Richard Adriàn Aguirre",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "firebase": "^4.3.0",
+    "lodash": "^4.17.4",
+    "simple-vue-validator": "^0.14.1",
+    "vee-validate": "^2.0.0-rc.19",
+    "vue": "^2.4.2",
+    "vue-infinite-loading": "^2.2.1",
+    "vue-router": "^2.7.0",
+    "vue-toasted": "^1.1.21",
+    "vue-virtual-scroll-list": "^1.2.2",
+    "vue2-google-maps": "^0.8.0",
+    "vuelidate": "^0.6.1",
+    "vuetify": "^0.14.11",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "jquery": "^3.2.1",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
